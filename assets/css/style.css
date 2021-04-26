@@ -17,16 +17,17 @@ body {
     font-weight: 400;
     margin-bottom: 30px;
     }  
-section{
-    height:50vh;
-    Margin-bottom:100px;
-}
+
+    section {
+        height: 70vh;
+        padding-bottom: 50px;
+    }
 .heading-box h2{ width:100%; color: red; }
 .carousel.slide {
-    height:50vh;
+    height:50vw;
 }
 .carousel img {
-    height: 65vh;
+    height: auto;
     width: 100vw; 
 }
 .text-box {
@@ -74,7 +75,10 @@ section{
       height: 5vh;
       width: auto;
       margin-top: -10px;
-      
+  }
+  .section {
+      height:90vh;
+      padding-top: 50px;
   }
   .dropdown-toggle { 
     background-color: #0e2946;
@@ -174,4 +178,11 @@ section{
     }
     .modal-title {
         color: #fff;
+    }
+
+    @media screen and (max-width: 768px) {
+    .heading-box h2{ width:100%; color: red; }
+.carousel.slide {
+    min-height:300px;
+}
     }
